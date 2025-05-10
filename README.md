@@ -1,6 +1,6 @@
 # Lisa HTML5 Editor
 
-![Lisa HTML5 Editor Logo](./assets/lisa_html_editor.jpg)
+![Lisa HTML5 Editor Logo](./assets/lisa_html_editor_x.jpg)
 
 **Lisa HTML5 Editor** is a lightweight, browser-based HTML5 editor featuring intuitive tools to add and format multimedia content. It offers essential editing functions like inserting videos, audios, links, and applying text formatting — all within a seamless web interface.
 
