@@ -23,7 +23,7 @@
    ```bash
    git clone https://github.com/ssmool/lisa_html5_editor.git
    cd lisa_html5_editor
-Open index.html in your browser.
+Open lisa_html_editor.html in your browser.
 
 Start editing HTML documents with built-in formatting tools and AI support!
 
