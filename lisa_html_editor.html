@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>LISA HTML EDITOR - git:ssmool - by:asytrick</title>
+		<script src='scripts/script.js'></script>
+		<script src='scripts/share.js'></script>
+		<script src='scripts/jsai.js'></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="editor-toolbar">
+			<button onclick="execCmd('bold')">Negrito</button>
+			<button onclick="execCmd('italic')">Itálico</button>
+			<button onclick="execCmd('underline')">Sublinhado</button>
+			<button onclick="execCmd('insertImage')">Imagem</button>
+			<button onclick="execCmd('createLink')">Link</button>
+			<button onclick="execCmd('insertVideo')">Vídeo</button>
+			<button onclick="execCmd('insertAudio')">Áudio</button>
+		</div>
+		<div id="richtextbox" contenteditable="true"></div>
+		<div id="share">
+			<button onclick="share('facebook')">Compartilhar no Facebook</button>
+			<button onclick="share('linkedin')">Compartilhar no LinkedIn</button>
+			<button onclick="share('github')">Ir para o GitHub</button>
+			<button onclick="share('instagram')">Instagram</button>
+		</div>
+	</body>
+	<script>
+		keyboard_listening();
+	</script>
+</html>
